@@ -1,0 +1,60 @@
+﻿body {
+    background-color: papayawhip;
+}
+
+#menu {
+    font-family: "Lato", sans serif;
+}
+
+nav {
+    padding: 12px 70px 0px 104px;
+    line-height: 60px;
+    width: 530px;
+}
+
+ul {
+    background-color: bisque;
+    text-align: center;
+    padding: 13px;
+    border: groove;
+    width: 190%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 140px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 140px;
+    border-color: darksalmon;
+}
+
+nav#menu li {
+    font-size: 16px;
+    line-height: 12px;
+    background-color: bisque;
+    padding: 15px;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: darkgoldenrod;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+}
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    background-image: url('http://localhost:51444//IMG/milkwave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 350px;
+}
+
+#logo {
+    height: 125px;
+}
