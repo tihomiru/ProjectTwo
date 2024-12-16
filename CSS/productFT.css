@@ -1,0 +1,111 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: papayawhip;
+}
+
+nav {
+    display: flex;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 140px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 140px;
+    border: groove;
+    border-color: peru;
+    line-height: 80px;
+    width: 70%;
+    height: 70px;
+    margin: 39px 0px 0px 130px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    color: black;
+    margin: 0 0px 48px 54px;
+    justify-content: space-between;
+    text-align: center
+}
+
+.menuIteam {
+    position: relative;
+    padding: 0px 20px 0 0px;
+    margin: -4px 0px 0 85px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: bisque;
+    list-style-type: none;
+    margin: 30px 20px 0 -30px;
+    padding: 0px;
+    border: 3px groove peru;
+    width: 140%;
+}
+
+    .subMenu li {
+        color: black;
+    }
+
+.menuIteam:hover .subMenu {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    display: flex;
+}
+
+#container {
+    background-image: url('http://localhost:61800/IMG/milkwave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 350px;
+    background-size: 1500px 350px;
+}
+
+#logo {
+    height: 145px;
+}
+
+.info {
+    border: 3px groove black;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    padding: 0 15px 0 15px;
+    /*display:flex;*/
+    align-self: end;
+    flex: 1;
+    margin: 0px 270px -30px -450px;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+p {
+    background-color: burlywood;
+}
+
+dl {
+    background-color: burlywood;
+}

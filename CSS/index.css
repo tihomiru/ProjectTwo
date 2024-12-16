@@ -1,110 +1,79 @@
 ﻿body {
-    background-color:papayawhip ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: papayawhip;
     
-}
-#menu {
-    font-family: "Lato", sans serif;
 }
 
 nav {
-    padding: 12px 70px 0px 104px;
-    line-height: 60px;
-    width: 530px;
-   
-}
-
-ul {
-    background-color: bisque;
-    text-align: center;
-    padding: 13px;
-    border: groove;
-    width: 190%;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 140px;
-    border-top-right-radius:30px;
+    border-top-right-radius: 30px;
     border-top-left-radius: 140px;
-    border-color: darksalmon;
+    border: groove;
+    border-color: peru;
+    line-height: 80px;
+    width: 70%;
+    height: 70px;
+    margin: 39px 0px 0px 130px;
+    
 }
 
-nav#menu li {
-    font-size: 16px;
-    line-height: 12px;
-    background-color: bisque;
-    padding: 15px;
-    display: inline-block;
-}
-
-    li a:hover {
-        background-color: darkgoldenrod;
-    }
-
-nav#menu a {
-    text-decoration: none;
-    color: white;
-}
-/*.dropdownMenu {*/
-    /* display: none;
-    position: absolute;
-    background-color: bisque;
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    border-radius: 5px;
-    z-index: 5;*/
-    /*display: none;
-    position: absolute;*/
-    /*top: 100%; 
-    left: 0;*/
-    /*background-color: white;
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    z-index:1001;*/
-    /*display: none; 
-    position: absolute; 
-    top: 100%;
-    left: 0;
-    background-color: white; 
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1001;
-}
-.dropdownMenu li{
-    margin-bottom: 5px;
-}
-.dropdownMenu li:last-child{
-    margin-bottom: 0px;
-}
-.dropdownMenu li a {
-    color: black;
-    padding: 5px 10px;
-    text-decoration:none;
-    display: block;
- }
-    .dropdownMenu li a:hover {
-        background-color: sandybrown;
-    }
-.dropdown:hover .dropdownMenu {
-    display:block;*/
-/*}*/
-#container {
+.menu {
+    list-style-type: none;
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    color: black;
+    margin: 0 0px 48px 54px;
+    justify-content: space-between;
+    text-align: center
+}
+
+.menuIteam {
+    position: relative;
+    padding: 0px 20px 0 0px;
+    margin: -4px 0px 0 85px;
+    color: white;
+    cursor: pointer;
+    display: flex;
     text-align: center;
-    background-image: url('http://localhost:51444//IMG/milkwave.png');
+    justify-content: space-between;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background-color: bisque;
+    list-style-type: none;
+    margin: 30px 20px 0 -30px ;
+    padding: 0px;
+    border: 3px groove peru;
+    width: 140%;
+    z-index:10;
+}
+
+    .subMenu li {
+        color: black;
+    }
+
+.menuIteam:hover .subMenu {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#container {
+    background-image: url('http://localhost:60711/IMG/milkwave.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px 350px;
+    display: flex;
 }
 #logo{
     height:125px;
